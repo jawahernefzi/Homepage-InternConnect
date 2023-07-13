@@ -1,0 +1,51 @@
+
+.offer__item{
+    cursor: pointer;
+}
+
+.offer__info h3 a{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.offer_info a:hover{
+    color: inherit;
+}
+
+
+.offer__info span{
+
+    font-size: 0.9rem;
+}
+
+
+.offer__card-bottom .price{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.status{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+@media only screen and (max-width:992px){
+    .offer__info h3 a{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    .offer__info h3 a{
+        font-size: 1rem;
+    }   
+}
+
+.offer__card-bottom span i{
+
+    font-size: 1rem;
+}
